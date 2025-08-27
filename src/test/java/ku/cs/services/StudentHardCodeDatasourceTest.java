@@ -21,7 +21,7 @@ class StudentHardCodeDatasourceTest {
         studentList = datasource.readData();
 
         assertEquals(4, studentList.getStudents().size());
-        assertEquals("First", studentList.findStudentById("6710400001").getName()); // ตรวจสอบว่าชื่อถูกต้อง
+        assertEquals("First", studentList.findStudentById("6710400001").getName());
         assertEquals("Fourth", studentList.findStudentById("6710400004").getName());
     }
 }
